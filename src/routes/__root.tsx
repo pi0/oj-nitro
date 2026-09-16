@@ -22,7 +22,6 @@ function RootComponent() {
         <nav>
           <Link to="/" activeProps={{ className: "active" }}>Home</Link>
           <Link to="/about" activeProps={{ className: "active" }}>About</Link>
-          <a href="/api/hello">/api/hello (nitro route)</a>
         </nav>
         <Outlet />
         <Scripts />
