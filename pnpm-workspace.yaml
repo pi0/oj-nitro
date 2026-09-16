@@ -1,0 +1,9 @@
+allowBuilds:
+  esbuild: true
+# Keep the 1-day minimum release age for every dependency except the nitro
+# nightly and the fresh releases it depends on (published the same day).
+minimumReleaseAge: 1440
+minimumReleaseAgeExclude:
+  - nitro-nightly
+  - env-runner@0.2.3
+  - h3@2.0.1-rc.32
