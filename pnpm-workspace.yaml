@@ -1,0 +1,7 @@
+allowBuilds:
+  esbuild: true
+# Keep the 1-day minimum release age for every dependency except nitro
+# (the release candidate oj's Nitro support targets).
+minimumReleaseAge: 1440
+minimumReleaseAgeExclude:
+  - nitro

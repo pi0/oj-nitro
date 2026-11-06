@@ -1,0 +1,11 @@
+node_modules
+.output
+.vercel
+.nitro
+.oj-cache
+.tanstack
+dist
+.env*
+.wrangler
+bin/oj
+bin/oj.*.tmp
